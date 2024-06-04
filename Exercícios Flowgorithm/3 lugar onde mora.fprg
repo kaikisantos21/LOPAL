@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 09:36:20 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjIyOzIwMjQtMDItMDY7IjA5OjI3OjA3ICI7MjI1NQ=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjIyOzIwMjQtMDItMDY7IjA5OjM2OjIwICI7MTsyMzU4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NomeUsuario" type="String" array="False" size=""/>
+            <declare name="lugar" type="String" array="False" size=""/>
+            <output expression="&quot;qual seu nome?&quot;" newline="True"/>
+            <input variable="nomeUsuario"/>
+            <output expression="&quot;onde mora?&quot;" newline="True"/>
+            <input variable="lugar"/>
+            <output expression="&quot;O nome do operador &#233;: &quot; &amp; nomeUsuario" newline="True"/>
+            <output expression="&quot;o lugar onde voc&#234; mora &#232;: &quot; &amp; lugar" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 08:52:59 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjIyOzIwMjQtMDItMDY7IjA4OjA0OjU3ICI7MjI1NA=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjIyOzIwMjQtMDItMDY7IjA4OjUyOjU5ICI7MTsyMzY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, n4" type="Integer" array="False" size=""/>
+            <declare name="resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite o primeiro numero&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;digite o segundo numero&quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;digite o terceiro numero&quot;" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;digite o quarto numero&quot;" newline="True"/>
+            <input variable="n4"/>
+            <assign variable="resultado" expression="n1+n2+n3+n4"/>
+            <output expression="&quot;A soma de n1,n2,n3,n4 &#233; de: &quot; &amp; resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
