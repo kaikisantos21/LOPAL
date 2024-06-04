@@ -1,6 +1,0 @@
-Digite sua idade: 
-15
-Não consegue... =(
-
-
-** Process exited - Return Code: 0 **
