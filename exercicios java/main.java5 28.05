@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int[] numeros = new int[10];
+        long multiplicacaoPares = 1; // Usando long para evitar overflow
+        int somaImpares = 0;
+        boolean temPar = false; // Verifica se há algum número par
+
+        // Solicita ao usuário para informar 10 números inteiros
+        for (int i = 0; i < 10; i++) {
+            System.out.print("Informe o " + (i + 1) + "º número inteiro: ");
+            numeros[i] = scanner.nextInt();
+        }
+
+        // Processa os números para calcular a multiplicação dos pares e a soma dos ímpares
+        for (int num : numeros) {
+            if (num % 2 == 0) {
+                multiplicacaoPares *= num;
+                temPar = true;
+            } else {
+                somaImpares += num;
+            }
+        }
+
+        // Verifica se há números pares para evitar que a multiplicação seja 1 erroneamente
+        if (!temPar) {
+            multiplicacaoPares = 0; // Se não houver números pares, a multiplicação deve ser 0
+        }
+
+        // Exibe os resultados
+        System.out.println("Multiplicação dos elementos pares: " + multiplicacaoPares);
+        System.out.println("Soma dos elementos ímpares: " + somaImpares);
+
+        scanner.close();
+    }
+}

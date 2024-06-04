@@ -1,0 +1,8 @@
+Digite um numero inteiro: 
+5
+Digite outro número inteiro: 
+6
+6
+
+
+** Process exited - Return Code: 0 **

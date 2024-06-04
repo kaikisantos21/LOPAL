@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+  	Scanner S = new Scanner(System.in); 
+    int [] N = new int[5]; // Número de indices
+ 
+ 
+ 
+ System.out.print("digite dez numeros inteiros: ");
+ for (int i=0; i < 5; i++) { // Solicita um numero a cada iteração
+     System.out.print("numero " + (i ) + "; ");
+     N[i] = S.nextInt(); 
+   
+     }
+    System.out.println(" inversao desses numeros é " + N[4] + "," +N[3]+ ","+ N[2]+","+ N[1]+ ","+ N[0]);
+  
+  }
+}
