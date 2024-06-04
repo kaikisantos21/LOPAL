@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 10:29:37 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjI0OzIwMjQtMDItMDY7IjA5OjU2OjMxICI7MjI1Ng=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjI0OzIwMjQtMDItMDY7IjEwOjI5OjM3ICI7MTsyMzYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, Soma, Sub, Mult, Div" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro numero&quot;" newline="True"/>
+            <input variable="(A)"/>
+            <output expression="&quot;Digite o segundo numero&quot;" newline="True"/>
+            <input variable="(B)"/>
+            <assign variable="soma" expression="a + b"/>
+            <assign variable="sub" expression="a - b"/>
+            <assign variable="mult" expression="a * b"/>
+            <assign variable="div" expression="a / b"/>
+            <output expression="&quot;A soma dos numeros &#233; igual a: &quot; &amp; soma" newline="True"/>
+            <output expression="&quot;A sub dos numeros &#233; igual a: &quot; &amp; sub" newline="True"/>
+            <output expression="&quot;A mult dos numeros &#233; igual a: &quot; &amp; mult" newline="True"/>
+            <output expression="&quot;A div dos numeros &#233; igual a: &quot; &amp; div" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
