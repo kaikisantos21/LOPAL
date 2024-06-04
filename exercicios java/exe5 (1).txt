@@ -1,0 +1,7 @@
+exe5.java:3: error: class NumerosPrimos is public, should be declared in a file named NumerosPrimos.java
+public class NumerosPrimos {
+       ^
+1 error
+
+
+** Process exited - Return Code: 1 **
