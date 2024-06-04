@@ -1,8 +1,0 @@
-Digite um numero inteiro: 
-8
-Digite outro numero inteiro: 
-7
-8
-
-
-** Process exited - Return Code: 0 **
