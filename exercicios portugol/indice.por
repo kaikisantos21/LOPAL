@@ -4,7 +4,7 @@
     inteiro num[5]
 
     para(inteiro i = 0; i < 5; i++) {
-    escreva("Declare o índice ", i, ":")
+    escreva("Declare o Ã­ndice ", i, ":")
     leia (num[i])
     }
 
@@ -12,7 +12,7 @@
 
     para(inteiro i = 0; i < 5; i++) {
     se(num[i] % 2 == 1){
-    escreva("Ímpar \n")}
+    escreva("Ãmpar \n")}
     senao{escreva("Par \n")}
     }
    
